@@ -4,6 +4,9 @@ This project aims to analyze football match footage using computer vision techni
 
 Key Features:
 Object Detection: Utilizes YOLOv4 for identifying players, the ball, and the referee in football match videos.
+
 Pixel Segmentation: Applies KMeans clustering to segment pixels and distinguish between different elements in the footage.
+
 Ball Possession Calculation: Uses pandas for data manipulation and interpolation to compute ball possession statistics for both teams based on detected ball movements.
+
 Output: Generates visual outputs and statistics to analyze ball possession dynamics throughout the match.
