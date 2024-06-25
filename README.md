@@ -3,7 +3,7 @@ Football Ball Possession Project
 This project aims to analyze football match footage using computer vision techniques to track players, the ball, and the referee. The project leverages YOLO (You Only Look Once) for real-time object detection, OpenCV for image and video processing, and KMeans clustering for pixel segmentation.
 
 Key Features:
-Object Detection: Utilizes YOLOv4 for identifying players, the ball, and the referee in football match videos.
+Object Detection: Utilizes YOLOv8x for identifying objects and then training it on YOLOv5x for identifying players, the ball, and the referee in football match videos using the roboflow dataset.
 
 Pixel Segmentation: Applies KMeans clustering to segment pixels and distinguish between different elements in the footage.
 
